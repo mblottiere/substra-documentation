@@ -36,7 +36,7 @@ substra login --profile <PROFILE_NAME> --username <USERNAME> --password <PASSWOR
 substra login --profile node-1 --username node-1 --password 'p@$swr0d44'
 ```
 
-## List & Get assests => describe assets
+## List & Get assets
 
 Assets you can list:
 - node: nodes in substra network
@@ -97,13 +97,13 @@ PERMISSIONS                 Processable by its owner only
 - dataset
 - objective
 
-## Run-local
+## Debug
 
 TODO
 
 ## Tips
 
-By default, `--pretty` formatting is used, but you might want to use a yaml or json output format with `-o` for `--output` with the arguments `yaml` or `json`.
+You can use `--output` formatting options like `-o pretty`, `-o yaml` or `-o json`.
 
 Another perk is that you can directly the log verbosity with `--log-level` and one of these parameter `DEBUG, INFO, WARNING, ERROR, CRITICAL`.
 
@@ -117,6 +117,10 @@ substra --help
 substra <command> --help
 ```
 
-## TODO
+## Resources
 
-- link SDK & CLI methods
+- [General documentation](https://doc.substra.ai/)
+- [CLI documentation](https://github.com/SubstraFoundation/substra/blob/master/references/cli.md)
+- [Python SDK documentation](https://github.com/SubstraFoundation/substra/blob/master/references/sdk.md)
+- [Titanic examples](https://github.com/SubstraFoundation/substra/blob/master/examples/titanic)
+- [Community examples](https://github.com/SubstraFoundation/substra-examples)
